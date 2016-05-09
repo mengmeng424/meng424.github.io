@@ -133,7 +133,7 @@ function initPhotos() {
       // Make sure its z-index is higher than the photos already on the table
       $(this).css( 'z-index', newImageZIndex++ );
 
-      // Gradually reduce the photo's dimensions to normal, fading it in as we go1
+      // Gradually reduce the photo's dimensions to normal, fading it in as we go
       $(this).animate( { width: imgWidth, height: imgHeight, opacity: .95 }, 1200 );
     } );
 
@@ -151,9 +151,6 @@ function initPhotos() {
 
   <div id="wooden-table"><img src="images/wooden-table.jpg" alt="Wooden table image" /></div>
 
-  <div id="description">
-    <h1>CSS3和jQuery桌面上流畅的相册效果</h1>
-  </div>
 
   <div id="lighttable">
     <img src="slides/MM1.jpg" alt="MM1" />
